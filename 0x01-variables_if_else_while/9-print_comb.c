@@ -1,7 +1,5 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
 
 /**
@@ -13,11 +11,16 @@
 
 int main(void)
 {
-	char alp;
+	int num;
 
-	for (alp = 'z'; alp >= 'a'; alp--)
+	for (num = '0'; num <= '9'; num++)
 	{
-		putchar(alp);
+		putchar(num);
+		if (num != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 
