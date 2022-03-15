@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet - print alphabet from a to z in lowe case
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int alp;
 
@@ -15,8 +15,6 @@ int main(void)
 		_putchar(alp);
 	}
 	_putchar('\n');
-
-	return (0);
 
 }
 
