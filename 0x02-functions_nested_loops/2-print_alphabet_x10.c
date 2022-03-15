@@ -1,15 +1,11 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
- * main- entry point
- *
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
  * Return: Always 0 (success)
- *
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
 	int a = 1, b = 10;
 	int c = 'a';
@@ -18,10 +14,9 @@ int main(void)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
-			putchar(c);
+			_putchar(c);
 		}
 		a++;
-		putchar('\n');
+		_putchar('\n');
 	}
-	return (0);
 }
