@@ -1,23 +1,22 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "main.h"
 
 /**
  * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
 	int alp;
+
 	for (alp = 'a'; alp <= 'z'; alp++)
 	{
-		putchar(alp);
+		_putchar(alp);
 	}
-	putchar('\n');
+	_putchar('\n');
 
-	return(0);
+	return (0);
 
 }
 
